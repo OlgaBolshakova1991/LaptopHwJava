@@ -1,6 +1,4 @@
 public class Laptop {
-    //public static int counter = 0;
-    //private int id;
     private String name;
     private int ram;
     private int storageCap;
@@ -8,7 +6,6 @@ public class Laptop {
     private String color;
     private double diagonal;
     public Laptop(String name, int ram, int storageCap, String os, String color, double diagonal){
-        //this.id = counter++;
         this.name = name;
         this.ram = ram;
         this.storageCap = storageCap;
